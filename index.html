@@ -12,6 +12,7 @@
             <nav>
                 <div class="logo"><img src="explorin_logo.jpeg" alt="" id="logo">Explorin Academy</div>
                 <ul class="navLinks">
+                    
                     <li class="navLinks"><a href="#skills">Skills</a></li>
                     <li class="navLinks"><a href="#progress">Progress</a></li>
                     <li class="navLinks"><a href="#projects">Projects</a></li>
@@ -25,10 +26,10 @@
     <main >
         <div id="mainDiv">
             <div id="mainDiv2">
-                <h1 class="mainDivH">Hi, I am Mr Assignment</h1>
+                <h1 class="mainDivH" id="hero-name"></h1>
                 <span class="span1">An Integral part of your success at <span id="span1">Explorin Academy</span></span>
             <div class="mainDivP">
-                <p>I am Garima Joshi. Currently I am pursuing my UG in Btech in Shivalik College of Engineering ,                         Dehradun. I've always had a keen interest in coding and that's what drives me to do better with each                     and every passing day.
+                <p>I am Garima Joshi. Currently I am pursuing my UG in Btech in Shivalik College of Engineering , Dehradun. I've always had a keen interest in coding and that's what drives me to do better with each and every passing day.
                 </p>
                 <br><br><br>
             </div>
@@ -93,6 +94,12 @@
                 </div>
             </div>
             <div id="project">
+                <div class="filters">
+                    <button class="filter-btn" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                </div>
+  
                 <br><br><br>
                 <div>
                     <div id="projectDiv">
@@ -101,30 +108,30 @@
                     </div>
                     <div class="project1">
                     
-                        <div id="projectDiv1">
+                        <div id="projectDiv1" class="project-box web">
                             <div class="projectImg"><img src="https://elearningindustry.com/wp-content/uploads/2021/01/machine-learning-and-the-supply-chain-process.png" alt="" class="projImg"></div>
                             <div class="creativity">
-                                <h2 class="projName">Project Name</h2>
+                                <h2 class="projName">Project Name 1</h2>
                                 <h3 class="abtProj">About the Project</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, sint?</p>                            
                             </div>
                         </div>
                     
             
-                        <div id="projectDiv2">
+                        <div id="projectDiv2" class="project-box mobile">
                             <div class="projectImg"><img src="https://elearningindustry.com/wp-content/uploads/2021/01/machine-learning-and-the-supply-chain-process.png" alt="" class="projImg"></div>
                             <div class="creativity">
-                                <h2 class="projName">Project Name</h2>
+                                <h2 class="projName">Project Name 2</h2>
                                 <h3 class="abtProj">About the Project</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, sint?</p>                            
                             </div>
                         </div>
                     
             
-                        <div id="projectDiv3">
+                        <div id="projectDiv3" class="project-box mobile">
                             <div class="projectImg"><img src="https://elearningindustry.com/wp-content/uploads/2021/01/machine-learning-and-the-supply-chain-process.png" alt="" class="projImg"></div>
                             <div class="creativity">
-                                <h2 class="projName">Project Name</h2>
+                                <h2 class="projName">Project Name 3</h2>
                                 <h3 class="abtProj">About the Project</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, sint?</p>                            
                             </div>
@@ -196,5 +203,7 @@
             </span>
         </div>
     </footer>
+    <script src="script.js"></script>
+
 </body>
 </html>
